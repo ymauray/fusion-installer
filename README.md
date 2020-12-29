@@ -5,8 +5,10 @@ This script will help install Fusion 360 under wine.
 
 To invoke this script, `cd` to where it resides, and run
 ```bash
-PATH=/path/to/wine/bin bash ./installfusion.bash
+PATH=/path/to/wine/bin:$PATH bash ./installfusion.bash
 ```
+
+Example: `PATH=/home/yannick/.local/share/lutris/runners/wine/lutris-5.7-11-x86_64/bin:$PATH bash ./installfusion.bash`
 
 This will start the installation in a new wine prefix called `prefix` under the current directory.
 
