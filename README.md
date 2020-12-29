@@ -35,4 +35,5 @@ The following is a list of reported wine versions that run Fusion 360.
 | wine version | Status               |
 |:-------------|:---------------------|
 |wine-6.0-rc4  |Fusion does not start |
+|lutris-6.0-rc1|Fusion does not start |
 |lutris-5.7-11 |Everything works      |
