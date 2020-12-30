@@ -1,3 +1,6 @@
 prefix
 Fusion 360 Client Downloader.exe
 runfusion.bash
+Fusion360_d3d11.log
+Fusion360_d3d9.log
+Fusion360_dxgi.log
