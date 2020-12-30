@@ -65,6 +65,6 @@ echo "Pess a key to begin installation."
 read
 
 WINEARCH=${_WINEARCH} WINEPREFIX=${_WINEPREFIX} ${_WINEBOOT}
-WINEARCH=${_WINEARCH} WINEPREFIX=${_WINEPREFIX} ${_WINETRICKS} vcrun2017 corefonts wininet winhttp atmlib gdiplus iertutil msxml3 msxml6 urlmon win10 d9vk
+WINEARCH=${_WINEARCH} WINEPREFIX=${_WINEPREFIX} ${_WINETRICKS} vcrun2017 corefonts wininet winhttp atmlib gdiplus iertutil msxml3 msxml6 urlmon win10 dxvk
 WINEARCH=${_WINEARCH} WINEPREFIX=${_WINEPREFIX} ${_WINE} "Fusion 360 Client Downloader.exe"
 
